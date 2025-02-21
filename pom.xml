@@ -68,8 +68,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M5</version> <!-- Make sure to use the latest version -->
+        <version>3.0.0-M7 </version> <!-- Make sure to use the latest version -->
         <configuration>
+          <testFailureIgnore>false</testFailureIgnore>
           <!-- Define the directory for reports -->
           <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
           <!-- Add this to specify the report format as HTML -->
