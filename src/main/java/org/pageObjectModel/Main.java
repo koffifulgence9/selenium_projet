@@ -1,4 +1,4 @@
-package org.demoSwagger;
+package org.pageObjectModel;
 
 public class Main {
   public static void main(String[] args) {
